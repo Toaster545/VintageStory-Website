@@ -11,7 +11,7 @@ Run `npm run dev` to start the development server.
 ![Homepage preview](images/home_light.png)
 ![Homepage preview](images/home_dark.png)
 
-### Logo
+### Devlog
 
-![Vintage Story logo](images/home_dake.png)
+![Vintage Story logo](images/devlog_dark.png)
   

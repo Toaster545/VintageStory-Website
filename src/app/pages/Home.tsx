@@ -98,7 +98,7 @@ export function Home() {
               />
               <div className="p-6">
                 <div className="text-sm text-[var(--vs-text-muted)] mb-2">February 5, 2026</div>
-                <h3 className="text-xl mb-2 text-[var(--vs-text-accent)]">1.22.0-pre - Fishing, Mechanisms, Metalworking and More! </h3>
+                <h3 className="text-xl mb-2 text-[var(--vs-text-accent)]">1.22.0-pre - Fishing, Mechanisms, Metalworking and More!</h3>
                 <p className="text-[var(--vs-text-secondary)] mb-4">
                   New farming mechanics, expanded animal husbandry, and improved building tools make settling down more rewarding than ever.
                 </p>

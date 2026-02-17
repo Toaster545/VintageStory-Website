@@ -15,12 +15,12 @@ interface DevlogPost {
 const devlogPosts: DevlogPost[] = [
   {
     id: 1,
-    title: "Version 1.18 - The Homestead Update",
-    date: "February 15, 2026",
+    title: "1.22.0-pre - Fishing, Mechanisms, Metalworking and More!",
+    date: "February 5, 2026",
     author: "Dev Team",
     category: "Major Update",
     excerpt: "A massive update focused on farming, animal husbandry, and settlement building. This update transforms the homesteading experience.",
-    image: "https://images.unsplash.com/photo-1762247789755-7c599807588b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzdXJ2aXZhbCUyMGdhbWUlMjBmb3Jlc3R8ZW58MXx8fHwxNzcxMzYxNzgxfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+    image: "./../../images/1.22.png",
     content: "New farming mechanics, crop rotation system, expanded animal breeds, improved building materials, and much more!"
   },
   {
@@ -30,7 +30,7 @@ const devlogPosts: DevlogPost[] = [
     author: "Dev Team",
     category: "Feature Update",
     excerpt: "Complete revamp of the metalworking system with new alloys, smithing techniques, and decorative options.",
-    image: "https://images.unsplash.com/photo-1711829799900-42470ee55689?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtZWRpZXZhbCUyMGNyYWZ0aW5nJTIwdG9vbHN8ZW58MXx8fHwxNzcxMzYxNzgxfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+    image: "./../../images/1.22.0.png",
     content: "Added 15 new metal alloys, reworked smithing mechanics, new decorative metal items, and improved tool durability balancing."
   },
   {
@@ -101,7 +101,7 @@ export function Devlog() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           {devlogPosts.map((post) => (
             <article key={post.id} className="bg-[var(--vs-bg-surface)] rounded-lg overflow-hidden border border-[var(--vs-border)] hover:border-[var(--vs-highlight)] transition-colors">
-              <ImageWithFallback
+              <img
                 src={post.image}
                 alt={post.title}
                 className="w-full h-64 object-cover"
