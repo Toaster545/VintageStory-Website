@@ -1,6 +1,17 @@
-  ## Running the code
+## Running the code
 
-  Run `npm i` to install the dependencies.
+Run `npm i` to install the dependencies.
 
-  Run `npm run dev` to start the development server.
+Run `npm run dev` to start the development server.
+
+## Website Images
+
+### Homepage Preview
+
+![Homepage preview](images/home_light.png)
+![Homepage preview](images/home_dark.png)
+
+### Logo
+
+![Vintage Story logo](images/home_dake.png)
   
